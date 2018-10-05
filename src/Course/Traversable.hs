@@ -95,7 +95,7 @@ instance (Functor f, Functor g) =>
   Functor (Coproduct f g) where
 -- Implement the (<$>) function for a Functor instance for Coproduct
   (<$>) :: (a -> b) -> Coproduct f g a -> Coproduct f g b
-  (<$>) = undefined
+  (<$>) = _wat
 
 
 
